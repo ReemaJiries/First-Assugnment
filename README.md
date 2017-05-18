@@ -29,6 +29,7 @@ accepts index if the node to be changed, starting from 1, and data of integer ty
 change the data of the node with the given index.
 getData:
 k - index of the k element in the linked list starting from 1.
-ofind the kth to last element of a singly linked list.
+find the kth to last element of a singly linked list.
+output: list of the kth to last element of a singly linked list.
 
 
