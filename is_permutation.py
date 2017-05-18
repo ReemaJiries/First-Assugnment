@@ -21,13 +21,11 @@ def is_permutation(str1 = "", str2 = ""):
             dict[letter] += 1
         else:
             dict[letter] = 1
-    print(dict)
     for letter in str2:
         if letter in dict:
             dict[letter] -= 1
         else:
             return False
-    print(dict)
     for value in dict.values():
         if value != 0:
             return False
